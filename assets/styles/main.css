@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+::selection {
+  background: #408b4d;
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 20px #80808049;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 1200px;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.logo-cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+}
+
+.nav-bar .logo-cont a {
+  color: #000;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+}
+
+.nav-bar ul li a {
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-bar ul li a button {
+  padding: 12px 15px;
+  border: none;
+  background-color: #408b4d;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.hero-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 89vh;
+  background-image: linear-gradient(#00000099, #00000099),
+    url("../image/nigeria-flag.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-cont #hero-text-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  max-height: 85%;
+}
+
+.hero-cont #hero-text-cont h1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-cont #hero-text-cont button {
+  padding: 10px 25px;
+  border: none;
+  background-color: #408b4d;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 30px;
+}
