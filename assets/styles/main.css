@@ -82,6 +82,7 @@
 .hero-cont #hero-text-cont {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
   align-items: center;
   width: 50%;
   height: auto;
@@ -104,4 +105,40 @@
   font-size: 1rem;
   cursor: pointer;
   margin-top: 30px;
+}
+
+.values-section {
+  width: 100%;
+  height: auto;
+  background-color: #f0f7f3;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+.value-card {
+  width: 22%;
+  height: auto;
+  background-color: #71c798;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #80808049;
+  padding: 20px;
+}
+
+.value-card h1 {
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.value-card p{
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
 }
